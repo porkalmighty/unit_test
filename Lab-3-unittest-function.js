@@ -9,7 +9,7 @@
  function validateHNumber(id)
 {
 	"use strict";
-	var pattern =/(n|N)[0-9]{8}/;
+	var pattern =/^(n|N)[0-9]{8}$/;
 	let isValid = pattern.test(id);
 	if(isValid)
 	{
